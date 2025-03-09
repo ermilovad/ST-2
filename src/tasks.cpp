@@ -5,9 +5,10 @@
 
 double CalculateGroundRope() {
     const double EarthRadius = 6378.1 * 1000;
-    Circle Earth;
-    Earth.setFerence(EarthRadius + 1);
-    double result = Earth.getRadius() - EarthRadius;
+    Circle Earth(EarthRadius);
+    Circle New;
+    New.setFerence(Earth.getFerence() + 1);
+    double result = New.getRadius() - EarthRadius;
     return result;
 }
 

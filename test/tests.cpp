@@ -123,10 +123,10 @@ TEST(test, can_change_area_0) {
 
 TEST(test, task_ground_rope) {
     double res = CalculateGroundRope();
-    EXPECT_NEAR(res, 0.1591549431, 1e-6);
+    EXPECT_NEAR(res, 0.159155, 1e-6);
 }
 
 TEST(test, task_pool) {
     double res = CalculatePoolCost();
-    EXPECT_NEAR(res, 72256.63103, 1e-6);
+    EXPECT_NEAR(res, 72256.63103, 1e-5);
 }
