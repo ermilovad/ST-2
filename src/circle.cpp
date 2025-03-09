@@ -4,6 +4,10 @@
 #include <stdexcept>
 #include "circle.h"
 
+Circle::Circle(double r) : radius(0.0), ference(0.0), area(0.0) {
+    setRadius(r);
+}
+
 void Circle::setRadius(double r) {
     if (r < 0) {
         throw std::invalid_argument("Incorrect radius");
