@@ -4,20 +4,20 @@
 #include <cstdint>
 const double pi = 3.141592653589793;
 class Circle {
-public:
-	explicit Circle(double r);
-	Circle() : radius(0.0), ference(0.0), area(0.0) {}
+ public:
+    explicit Circle(double r);
+    Circle() : radius(0.0), ference(0.0), area(0.0) {};
 
-	void setRadius(double r);
-	void setFerence(double f);
-	void setArea(double a);
-	double getRadius();
-	double getFerence();
-	double getArea();
-private:
-	double radius;
-	double ference;
-	double area;
+    void setRadius(double r);
+    void setFerence(double f);
+    void setArea(double a);
+    double getRadius();
+    double getFerence();
+    double getArea();
+ private:
+    double radius;
+    double ference;
+    double area;
 };
 
 #endif  // INCLUDE_CIRCLE_H_
