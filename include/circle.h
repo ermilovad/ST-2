@@ -6,7 +6,7 @@ const double pi = 3.141592653589793;
 class Circle {
  public:
     explicit Circle(double r);
-    Circle() : radius(0.0), ference(0.0), area(0.0) {};
+    Circle() : radius(0.0), ference(0.0), area(0.0) {}
 
     void setRadius(double r);
     void setFerence(double f);

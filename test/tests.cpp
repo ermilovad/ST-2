@@ -112,7 +112,7 @@ TEST(test, can_change_ference_0) {
     EXPECT_NEAR(A.getRadius(), f, 1e-6);
     EXPECT_NEAR(A.getArea(), f, 1e-6);
 }
-TEST(test, can_change_area) {
+TEST(test, can_change_area_0) {
     Circle A(50.0);
     double a = 0.0;
     A.setArea(a);
